@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Growing and Shrinking</title>
+<script>
+var font=0,loading;
+function start()
+{
+loading=window.setInterval("incr()",100);
+}
+function incr()
+{
+font=font+1;
+display.innerHTML="TEXT-GROWING:"+font+"pt";
+display.style.fontSize=font+"pt";
+if(font>=50)
+{
+window.clearTimeout(loading);
+loading=window.setInterval("decr()",100);
+}
+display.style.color="#262626";
+}
+function decr()
+{
+font=font-1;
+display.innerHTML="TEXT-SHRINKING:"+font+"pt";
+display.style.fontSize=font+"pt";
+if(font==5)
+{
+window.clearTimeout(loading);
+loading=window.setInterval("incr()",100);
+}
+display.style.color=" #f2f2f2";
+}
+</script>
+</head>
+<body style="background:#004d80" onload="start()">
+<center>
+<p id="display" style="margin:250px"> </p>
+</center>
+</body>
+</html>
