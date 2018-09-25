@@ -1,0 +1,28 @@
+
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<students>
+<student>
+<USN>USN : 4VV20CS123</USN>
+<name>NAME : Vinay Nayar</name>
+<college>COLLEGE : VVCE</college>
+<branch>BRANCH : Computer Science and Engineering</branch>
+<year>YEAR : 2019</year>
+<e-mail>E-Mail : 2020@gmail.com</e-mail>
+</student>
+<student>
+<USN>USN : 4VV20CS126</USN>
+<name>NAME : Yash Ponanna</name>
+<college>COLLEGE : VVCE</college>
+<branch>BRANCH : Computer Science and Engineering</branch>
+<year>YEAR : 2019</year>
+<e-mail>E-Mail : 2020@gmail.com</e-mail>
+</student>
+<student>
+<USN>USN : 4VV20CS124</USN>
+<name>NAME : Vishal K Jain</name>
+<college>COLLEGE : VVCE</college>
+<branch>BRANCH : Computer Science and Engineering </branch>
+<year>YEAR : 2019</year>
+<e-mail>E-Mail : 2020@gmail.com</e-mail>
+</student>
+</students>
